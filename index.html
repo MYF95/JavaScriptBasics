@@ -19,14 +19,21 @@
 <button type="button" onclick="document.getElementById('doge').style.display = 'block'">Make me appear</button>
 <button type="button" onclick="myFunction2()">Nani</button>
 
-<button onclick="document.write(5+6)">Try it boi</button>
+<p id="random"></p>
+<button type="button" onclick="document.getElementById('doge').style.display = 'none'">Click Me!</button>
+<button type="button" onclick="document.getElementById('doge').style.display = 'block'">Make me appear</button>
+<button type="button" onclick="functionLastName()">Nani</button>
 
 <p id="sum"></p>
+<button onclick="document.write(5+6)">Try it boi</button>
 
 <script>
-    console.log(5 + 6);
+var x, y, z;
+x = 5000;
+y = 56056;
+z = x + y;
+document.getElementById("sum").innerHTML = z;
 </script>
-
 <script src="myScript.js"></script>
 <script src="myDogeScript.js"></script>
 </body>
